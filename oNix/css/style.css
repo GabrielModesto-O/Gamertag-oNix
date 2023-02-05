@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    overflow-x: hidden;    /*remove a barra horizontal*/
+} 
+.cabecalho{
+
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    color: white;
+    list-style: none;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.menu{
+    padding: 10px;
+}
+
+.cabecalho a{
+    color: white;
+    padding: 15px;
+    /* margin: 10px; */
+
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.menu a{
+    display: block;
+}
+.menu-drop{
+    display: none;
+}
+
+.menu ul li ul li{
+    display: block;
+    width: auto;
+}
+.menu ul li ul.menu-drop{
+    width: 100%;
+    background: #111;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    
+}
+
+.menu ul li:hover .menu-drop{
+    display: block;
+    position: absolute;
+}
+
+.menu a:hover{
+    background-color: rgb(0, 184, 174);
+    color: black;
+    transition: all 0.3s;
+}   
+
+.cadastro{
+    border: 1px solid rgb(0, 184, 174);
+    background-color: rgb(0, 184, 174);
+    transition: all 0.5s;
+    border-radius: 50px;
+}
+
+.entrar{
+    margin-right: 10px;
+}
+
+.entrar a:hover{
+    background-color: transparent;
+}
+
+.logo{
+    font-size: 22px;
+}
+
+.logo span{
+    font-weight: 700;
+    color: rgb(0, 184, 174);
+}
+
+
+.home1{
+    width: auto;
+    height: auto;
+    /* border: 1px solid red; */
+    padding-top: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.home1 img{
+    width: 300px;
+
+}
+
+/* ------------------------------ divisoes - TAG */
+.tag{
+    /* border: 1px solid blue; */
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.tag img{
+    width: 350px;
+}
+.conteudotag h2{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Fredoka One', Roboto;
+    font-size: 40px;
+    color: rgb(0, 184, 174);
+    letter-spacing: 3px;
+
+}
+.conteudotag{
+    /* border: 1px solid blue; */
+    width: 75vh;
+    min-height: 350px;
+    height: auto;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+/* ------------------------------ divisoes - TAG  - END*/
+
+.conteudo{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    /* border: 5px solid rgb(0, 184, 174); */
+    width: 90%;
+
+}
+
+
+
+.statistic{
+    /* border: 1px solid blue; */
+    background-color: rgb(33, 33, 33);  
+    min-height: 400px;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 150px 10px 150px;
+}
+
+.logotrn{
+    /* border: 1px solid salmon; */
+    width: 300px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.logotrn img{
+    min-width: 300px;
+    width: auto;
+    /* width: 300px; */
+}
+.estatistica{
+    /* border: 1px solid salmon; */
+    width: 1100px;
+}
+
+.estatistica img{
+    /* border: 1px solid red; */
+    min-width: 500px;
+    width: 1100px;
+}
+
+
+.placar h2{
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.placares{
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.placares img{
+    width: 550px;
+    margin: 15px;
+
+}
+.conteudovideo{
+    width: 100%;
+    /* border: 1px solid salmon; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+
+    /* justify-content: right; */
+}
+.fundotitulo{
+    width: 400px;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 20px 300px rgb(173, 173, 173);
+}
+.titulovideo{
+    margin: 10px;
+    border-bottom: 5px solid salmon;
+    width: 200px;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.video{
+    width: auto;
+    /* border: 1px solid blue; */
+}
+
+.rodape{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
